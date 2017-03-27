@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: katex
 title: Introduction
 permalink: /index.html
 ---
@@ -10,4 +10,4 @@ $$
 \frac{3}{2}=\int_{-\infty}^\epsilon\dfrac{x}{y}
 $$
 
-Here is some inline math: $x$, $y$, and $x+y=\frac{2}{3}\sim\dfrac{3}{2}$.
+Here is some inline math: $$x$$, $$y$$, and $$x+y=\frac{2}{3}\sim\dfrac{3}{2}$$.
