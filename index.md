@@ -11,12 +11,11 @@ Hi everyone this is a test.
 I originally forked Barry Clark's
 [jekyll-now](https://github.com/barryclark/jekyll-now) repository, but
 then I deleted everything except those things that were absolutely
-necessary, at least on this "minimal" branch.  I plan to possibly add
-these things back in as I understand them.  The bulk of these things I
-don't understand because I don't know css, so I guess I should learn
-css next.  But is it really so bad if a website looks really minimal
-like this?  Maybe I could still do a minimal look better by knowing
-css.
+necessary.  I plan to possibly add these things back in as I
+understand them.  The bulk of these things I don't understand because
+I don't know css, so I guess I should learn css next.  But is it
+really so bad if a website looks really minimal like this?  Maybe I
+could still do a minimal look better by knowing css.
 
 Also, jekyll seems to be designed for blogs, but I don't plan for this
 site to be a blog, so I got rid of the stock `index.html` with its
