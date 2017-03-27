@@ -25,8 +25,6 @@ this `index.md` file.  Later when I do more, this will become the
 homepage and it will link to various other pages.  Now it is just a
 testpage.
 
-3. Install
-
 ### KaTeX Support
 I thought [KaTeX](https://khan.github.io/KaTeX/) was pretty cool,
 because it does annoy me how long MathJax takes to load.  I got it
