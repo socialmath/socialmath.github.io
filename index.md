@@ -54,7 +54,7 @@ than nothing):
 
 ```sh
 > Set-ExecutionPolicy RemoteSigned
-> (new-object net.webclie.t).DownloadString('https://chocolatey.org/install.ps1') | iex
+> (new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1') | iex
 ```
 
 * Install `ruby`.  Open `git-bash` and type:
