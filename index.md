@@ -1,6 +1,6 @@
 ---
 layout: katex
-title: Introduction
+title: Index
 permalink: /index.html
 ---
 
