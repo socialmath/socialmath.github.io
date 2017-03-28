@@ -1,4 +1,4 @@
-#
+
 # This file contains configuration flags to customize your site
 #
 
@@ -6,19 +6,19 @@
 name: SocialMath
 
 # Short bio or description (displayed in the header)
-description: Mathematics for Describing Social Things
+description: Mathematics for Describing Social Phenomena
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-#avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  github: socialmath/socialmath
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
+# Default URL is just the title of the page without the path
 permalink: /:title/
+
+# Collections (see http://ben.balter.com/2015/02/20/jekyll-collections/)
+collections:
+  math-background:
+    output: true
+    permalink: /math_background/:path/
+  love:
+    output: true
+    permalink: /love/:path/
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -32,14 +32,6 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
 # Exclude these files from your production _site
 exclude:
