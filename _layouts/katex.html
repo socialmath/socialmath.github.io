@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.js"></script>
     <style>
-      /* We want previews included so at least the TeX source is visible to clients
-         without Javascript, or without network connection
-         (new option in kramdown 1.6, enabled in _config.yml)
-         but we hide them if math rendering completes sucessfully. */
-      .MathJax_Preview { color: #888 }
-      .math_finished .MathJax_Preview { display: none }
+      /* We want previews included so at least the TeX source is
+         visible to clients without Javascript, or without network
+         connection (new option in kramdown 1.6, enabled in
+         _config.yml) but we hide them if math rendering completes
+         sucessfully. */ .MathJax_Preview { color: #888 }
+         .math_finished .MathJax_Preview { display: none }
     </style>
   </head>
   <body>
-{{ content }}
+    {% if page.version %}
+      {% capture version_name %}/_versions/{{page.title | downcase}}-{{page.version}}.md{% endcapture %}
+      {% capture version_content %}{% include_relative {{ version_name }} %}{% endcapture %}
+      {{ version_content | markdownify }} 
+    {% else %}
+      {{ content }}
+    {% endif %}
   </body>
   <script>
     var scripts = document.getElementsByTagName("script");

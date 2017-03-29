@@ -1,5 +1,4 @@
 ---
-layout: katex
 title: Index
 ---
 
@@ -7,7 +6,7 @@ Hi everyone this is a test.
 
 ### Manifesto
 
-[Here]({{ site.baseurl }}{% link manifesto.md %}) is the manifesto.
+[Here](/manifesto/) is the manifesto.
 
 ### Some background
 

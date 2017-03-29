@@ -8,6 +8,13 @@ name: SocialMath
 # Short bio or description (displayed in the header)
 description: Mathematics for Describing Social Phenomena
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: katex
+  
 # Default URL is just the title of the page without the path
 permalink: /:title/
 
@@ -32,6 +39,12 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
+  # Copied from https://github.com/cben/sandbox/blob/gh-pages/_config.yml
+  # The following is untested, suppossed to work once Github gets Kramdown 1.6...
+  # (current visible at https://pages.github.com/versions)
+  math_engine: mathjax  # default in Kramdown
+  math_engine_opts:
+    preview: true   # not default but better acessibility
 
 # Exclude these files from your production _site
 exclude:
