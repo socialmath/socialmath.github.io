@@ -6,6 +6,10 @@ permalink: /index.html
 
 Hi everyone this is a test.  
 
+### Manifesto
+
+
+
 ### Some background
 
 I originally forked Barry Clark's
