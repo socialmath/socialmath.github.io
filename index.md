@@ -1,7 +1,6 @@
 ---
 layout: katex
 title: Index
-permalink: /index.html
 ---
 
 Hi everyone this is a test.  
