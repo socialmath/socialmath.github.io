@@ -1,13 +1,40 @@
 ### Versions
 
 Some files will have several versions.  This is because I plan to
-rewrite things multiple times to practice writing them.  Later
-versions are not necessarily improvements of earlier versions, so I
-want them to all coexist in a single commit, so a developer can easily
-toggle between the different versions of a file without affecting
-anything else on the site.  However, only one should appear on the
-website.  This concept of "versions" is very similar to the concept of
-"takes" in a DAW such as Reaper.
+rewrite things multiple times to practice writing them.  I would like
+to think of writing as a performance.  It makes more sense to me to do
+multiple takes and pick the best than to do a single take and edit it.
+(Of course it may make _even_ more sense to pick the best take and
+_then_ edit it.  I don't know because I don't have much experience
+trying these different approaches, it is all speculative as of yet.)
+
+I also hope that this kind of versioning will help with two problems I
+have when writing:
+
+1. I have trouble writing when I don't know who my audience is.  I say
+   things in different ways to different audiences, so when I am
+   writing for the public I lose footing and I mentally flounder
+   between the ways I would say things to different possible
+   audiences.  With the versioning approach above, I can write each
+   take with a specific audience in mind.
+   
+2. I struggle with perfectionism.  That is, I have trouble committing
+   to one way of saying something over another, especially when the
+   result will look all official on a public website.  The thought
+   that I am just writing _a version_ of a document and not _the
+   document_ makes it a lot easier for me.  My particular phraseology
+   is no longer set in stone, because I can do another take a
+   different way.  It makes it more like a transient form of
+   communication like live music or talking, and in these forms I have
+   no problem with perfectionism.
+
+Since later versions are not necessarily improvements of earlier
+versions, I would like them to all coexist in a single commit, so a
+developer can easily toggle between the different versions of a file
+without affecting anything else on the site.  However, only one should
+appear on the website.  This concept of "versions" is very similar to
+the concept of "takes" in a DAW such as Reaper, where for each track
+independently you can select the take that plays back.
 
 Here is how this is implemented.
 
