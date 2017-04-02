@@ -25,7 +25,7 @@ expect that people who go to college and graduate school for pure
 mathematics and get years and years of training would come out and
 help the rest of us think.  But they don't!  Sadly, the only thing
 they apply all that training to is more mathematics.  It is completely
-self-serving!
+self-serving! 
 
 The isolation of mathematics from the rest of life is due to the
 dysfunctional way that our culture treats mathematics.  As already
@@ -47,29 +47,46 @@ anything they say reinforces the image of mathematics as cryptic
 esoterica that only really smart people can understand.  The
 dysfunctional communication style of mathematicians also alienates
 newcomers and prevents mathematical culture from ever making it into
-the general culture, which would be *amazing* if it happened.
+the general culture, which would be **amazing** if it happened.
 
 As a consequence of all the obstacles to learning mathematics that our
 society sets up, the only people who ever learn it are those who do
 almost nothing else with their life.  Thus they become a much happier
 version of MMORPG addicts, since they are living their whole life not
-for the real world but for the mathematical world.  The reason they
-are happier than MMORPG addicts is that the mathematical world is
-fucking amazing and beautiful and there is much to see and do there.
-But it still does not rival the real world as a place to spend one's
-life.  It should be possible to be a mathematician, but live in the
-real world.  The tools of thought that mathematicians have so
-fastidiously developed over the millenia should not just be applied in
-the world of mathematics.  They should be applied in the real world as
-well.  To _only_ apply these tools to mathematics is completely
-self-serving.  Of course these tools should be applied to mathematics
-as well, because much of the power of mathematics stems from its
-self-referentiality; mathematics has been applied to itself on so many
-levels that it has gained great self-knowledge, like someone who not
-only understands themself, but also understands how they understand
-themself, and how they do that, etc.  But for true self-knowledge,
-mathematics must step outside itself and see how it relates to the
-real world, the social world.
+for the real world but for the mathematical world.  They are happier
+than MMORPG addicts because 1) mathematical addiction is much more
+highly valued in our society than MMORPG addiction and 2) the
+mathematical world is not designed by capitalists to maximize for
+addictiveness, but rather by the very same people (mathematicians) who
+live there.  But it still does not rival the real world as a place to
+spend one's life.  It should be possible to be a mathematician, but
+live in the real world.
+
+Now I said at the beginning that the tools of mathematics are useful
+for everything, not just mathematics.  Despite this, mathematicians
+generally only apply these tools outside mathematics for fun, to make
+a joke, or to make an analogy for better understanding something
+mathematical.  Professionally, they only apply the tools of
+mathematics to mathematics itself, or to very closely related fields
+such as physics and computer science.  Modern mathematics is like
+_avant&nbsp;garde_
+art,
+[which no longer attempts to mirror the world, but instead mirrors art itself](https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3).
+Just like art, mathematics used to be applied to the world.  But now
+it is applied almost exclusively to itself, and furthermore it is
+applied to the application of itself to itself, _ad infinitum_.  It is
+reflected into itself _ad infinitum_ just
+like
+[two mirrors facing each other](https://en.wikipedia.org/wiki/Infinity_mirror#/media/File:Infinity_Mirror_Effect.jpg).
+Mathematics sees infinitely far into itself, and this great
+self-knowledge is largely responsible for its great power.  But its
+mistake is that it doesn't see beyond itself.  Mathematics does not
+exist as a celestial hall of mirrors surrounded by vacuum.  It has a
+social existence.  The mathematical world lives in the communities of
+mathematicians who think that they live in it.  Mathematics sees
+infinitely far into itself, but it neglects the social sphere in which
+its actual existence resides.  For mathematics to have true
+self-knowledge, it must be applied to society.
 
 Social Math is a proposal to do this.  In Social Math, mathematics
 will be applied to the world that humans live in.  It will be
