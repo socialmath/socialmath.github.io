@@ -1,5 +1,7 @@
 ---
 title: Manifesto
 published: false
-version: 1
+versions:
+  - 1
+  - 2
 ---
