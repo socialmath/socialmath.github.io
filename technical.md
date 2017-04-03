@@ -17,9 +17,7 @@ Also, jekyll seems to be designed for blogs, but I don't plan for this
 site to be a blog, so I got rid of the stock `index.html` with its
 fee, iterating through the posts in the `_posts` directory.  I also
 removed the `_posts` directory.  In the place of `index.html`, I put
-this `index.md` file.  Later when I do more, this will become the
-homepage and it will link to various other pages.  Now it is just a
-testpage.
+an `index.md` file.
 
 ### KaTeX Support
 I thought [KaTeX](https://khan.github.io/KaTeX/) was pretty cool,
