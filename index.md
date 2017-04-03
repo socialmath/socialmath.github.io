@@ -14,3 +14,7 @@ soon).
 ### What I did to set up this site
 
 [Here](/technical/) is a technical description.
+
+### Please contribute!
+
+Issues and pull requests are welcome on the [github repository]({{site.github.repository_url}}).
