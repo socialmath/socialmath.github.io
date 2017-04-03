@@ -1,3 +1,37 @@
+/*
+@font-face {
+    font-family: "Computer Modern";
+    src: url('ComputerModern/cmunss.ttf');
+}
+@font-face {
+    font-family: "Computer Modern";
+    src: url('ComputerModern/cmunsx.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Computer Modern";
+    src: url('ComputerModern/cmunsi.ttf');
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Computer Modern";
+    src: url('ComputerModern/cmunbxo.ttf');
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+*/
+
+@import url("ComputerModern/sans/cmun-sans.css");
+
+body {
+    font-family: "Computer Modern Sans", sans-serif
+}
+
+em {
+    font-weight: normal;
+    font-style: italic;
+}
+
 .wrapper {
     max-width: 700px;
     margin-right: auto;
