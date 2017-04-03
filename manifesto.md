@@ -1,6 +1,6 @@
 ---
 title: Manifesto
-published: false
+published: true
 versions:
   - 1
   - 2
