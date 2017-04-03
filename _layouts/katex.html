@@ -11,9 +11,9 @@
       {% capture version_content %}{% include_relative {{ version_name }} %}{% endcapture %}
       {{ version_content | markdownify }}
     {% elsif page.versions %}
-      <h1> Versions of {{ page.title }} </h1>
+      <h1> [Versions of {{ page.title }}] </h1>
       {% for version in page.versions %}
-        <h2> Version {{ version }} </h2>
+        <h2> [Version {{ version }}] </h2>
         {% capture version_name %}/_versions/{{page.title | downcase}}-{{version}}.md{% endcapture %}
         {% capture version_content %}{% include_relative {{ version_name }} %}{% endcapture %}
         {{ version_content | markdownify }}
