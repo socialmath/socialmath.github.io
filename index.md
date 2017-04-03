@@ -1,5 +1,4 @@
 ---
-title: Index
 ---
 
 Hi everyone this is a test.  
