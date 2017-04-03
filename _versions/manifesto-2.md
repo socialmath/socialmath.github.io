@@ -1,3 +1,5 @@
+### Social Math Manifesto
+
 Mathematics has helped me think about a lot of things outside math.
 I'm sure other mathematicians will relate to this.  The tools and ways
 of thinking that we use in mathematics are very helpful for making
@@ -6,8 +8,9 @@ do with life in general!  It is all about manipulating shapes,
 numbers, and symbols abstractly.  You have to learn a lot of
 mathematics, which is really difficult in our society given how it's
 taught, before you see its relevance to life in general.  Social Math
+
 aims to talk about math in such a way that its relevance to life in
-general is immediately relevant.  I also aim to make this math easily
+general is immediately apparent.  I also aim to make this math easily
 accessible to the people it can help, which is anyone, not just people
 who are already mathematicians.
 
@@ -15,7 +18,7 @@ This is very different than what mathematicians usually do.  They
 usually go to school for years and years to learn the powerful system
 of conceptual techniques that is mathematics, and what do they apply
 these great tools to?  Instead of applying them to something that can
-help people, most mathematicians apply them to the system to
+help people, most mathematicians apply them to the system of
 mathematics itself! It's completely self-serving!
 
 In the last paragraph I was primarily talking about pure
@@ -23,27 +26,32 @@ mathematicians.  There _do_ exist applied mathematicians, and even
 mathematicians who apply mathematics to social science, but they are
 not doing what I want to do.  There are a number of differences:
 
+{% comment %} Katarina said that my tone changes between paragraphs.
+I don't think there's much I can do about this as far as revision, but
+I'll watch out for it in future.  I think it will probably naturally
+get better as I get more practice writing. {% endcomment %}
+
 * In the way math is usually used in social science, it is used as
-  a [black box](LLLLLLLLLLINK).  The concepts that social scientists
-  come up with are put in one side of the box, and the mathematical
-  results come out the other side.  The social concepts (such as
-  gender, crime rate, income) are accepted by the mathematician
-  uncomprehendingly and uncritically: they simply become abstract
-  variables for mathematical analysis, and they lose all social
-  content.  The results of mathematics are used by the social
-  scientist, but the concepts of mathematics, the ways of thinking
-  which are so helpful for me, are never applied to society.  Sure
-  these ways of thinking are used to produce the results which the
-  social scientists then use, but these results are taken as pure
-  results, stripped of conceptual process that created them.  In this
-  approach, mathematics never actually makes contact with social
+  a [black box](https://en.wikipedia.org/wiki/Black_box).  The
+  concepts that social scientists come up with are put in one side of
+  the box, and the mathematical results come out the other side.  The
+  social concepts (such as gender, crime rate, income) are accepted by
+  the mathematician uncomprehendingly and uncritically: they simply
+  become abstract variables for mathematical analysis, and they lose
+  all social content.  The results of mathematics are used by the
+  social scientist, but the concepts of mathematics, the ways of
+  thinking which are so helpful for me, are never applied to society.
+  Sure these ways of thinking are used to produce the results which
+  the social scientists then use, but these results are taken as pure
+  results, stripped of the conceptual process that created them.  In
+  this approach, mathematics never actually makes contact with social
   science: they talk past each other.
   
 * It is generally only quantitative math, such as statistics, that is
   applied to social science.  I plan to apply qualitative math.  This
   is more apt, since the things humans care about in society are
   qualitative.  What math is qualitative, you ask?  Isn't math all
-  numbers and quantities?  No.  As I see it, math has 4 big things
+  numbers and quantities?  No.  As I see it, math has four big things
   that it is about: number, space, structure, and argument.  Geometry
   and topology study space, not number.  Algebra studies structure.
   Mathematical logic studies argument.  Math is so much more than just
@@ -56,14 +64,15 @@ not doing what I want to do.  There are a number of differences:
   mathematics.  Most mathematicians, if you asked them, would say it
   is necessary to make such a simplified model if you hope to analyze
   anything as complicated as society.  Social Math doesn't simplify
-  society.  Rather it complexifies math.  (If you think mathematics is
-  already complicated, let me remind you of a quote by von&nbsp;Neumann:
-  "If people do not believe that mathematics is simple, it is only
-  because they do not realize how complicated life is.")  This is what
-  has to be done in order for mathematics to be correctly applied to
-  society.  Mathematics is just a language and a conceptual scheme,
-  and it must be subservient to the reality that it describes, not
-  _vice versa_.  Math must be bent to society, not society to math.
+  society.  Rather it complicates math.  (If you think mathematics is
+  already complicated, let me remind you of a quote by
+  von&nbsp;Neumann: "If people do not believe that mathematics is
+  simple, it is only because they do not realize how complicated life
+  is.")  This is what has to be done in order for mathematics to be
+  correctly applied to society.  Mathematics is just a language and a
+  conceptual scheme, and it must be subservient to the reality that it
+  describes, not _vice&nbsp;versa_.  Math must be bent to society, not
+  society to math.
   
 * Applied mathematicians often want their models to have _predictive
   power_.  Basically, they want to make effective calculators for
@@ -85,6 +94,10 @@ not doing what I want to do.  There are a number of differences:
   predictions without first understanding the reasoning behind them,
   so predictive power only really matters insofar as there is
   descriptive power to support it.
+  
+{% comment %} I'm a little bit unsure about "this is adequate",
+because "this" doesn't have a clear antecedent.  But it sounds good if
+I don't think too much about it.  {% endcomment %}
   
 The bending of math to society is not unprecedented.  In fact, it has
 already happened in the application of mathematics to chemistry.  This
@@ -120,6 +133,13 @@ attempt to reduce the complexity of society, we will no longer be
 talking about society, but rather a simplified version.  We will have
 bent society to math instead of math to society.  Math _will_ help us
 understand society, but not through reducing society's complexity.
+Rather than supplanting our existing tools for understanding society,
+mathematical tools will enhance them.
+
+{% comment %} Katarina says I should have an example of how society,
+like chemistry, has many conflicting, exception-riddled laws that
+combined make a suprisingly workable method of reasoning.
+{% endcomment %}
 
 Why does chemical reasoning work when it is so messy?  It is because
 the mess is grounded in reality.  Without the grounding of actual
@@ -132,7 +152,7 @@ predictions, but the system itself does not predict.  This is just how
 Social Math will have to be if it wants to describe the complexity of
 social life without simplification.
 
-So how exactly must math complexify itself in order to adhere to
+So how exactly must math complicate itself in order to adhere to
 society?  Let's use chemistry as a model.  In chemistry, all concepts
 are open for revision.  For example, the concept of acids and bases is
 revised to give the concept of an acidity scale.  The acidity scale,
@@ -156,31 +176,28 @@ the creative aspect of mathematics: creating systems and creating
 arguments through which we know the systems.  However, these
 conceptual techniques are not disclosed in mathematical writing.
 Mathematical writing customarily states only the results of such
-creativity.  ADDLINKTO_THURSTON_AND_GROTHENDIECKQUOTE? This
-constitutes a lack of self-awareness in mathematics.  The conceptual
-techniques of mathematics are generally only applied to the results of
-mathematics, not enough to these conceptual techniques themselves.  In
-order for mathematics to bend itself to society or whatever else it is
-_correctly_ applied to, it really needs to become more self-aware.
-Self-awareness in general is the key prerequisite for self-change.
-Thus writing in Social Math will address all aspects of mathematics as
-well as of society.  It will not only discuss the results of
-mathematics, but the methods used to attain those results as well.
-This self-consciousness is different from what is done ordinarily in
-mathematics, but it is essential if we want to bend it to society.
+creativity.  This constitutes a lack of self-awareness in mathematics.
+The conceptual techniques of mathematics are generally only applied to
+the results of mathematics, not enough to these conceptual techniques
+themselves.  In order for mathematics to bend itself to society or
+whatever else it is _correctly_ applied to, it really needs to become
+more self-aware.  In general, self-awareness is the key prerequisite
+for self-change.  Thus writing in Social Math will address all aspects
+of mathematics as well as of society.  It will not only discuss the
+results of mathematics, but the methods used to attain those results
+as well.  This self-consciousness is different from what is done
+ordinarily in mathematics, but it is essential if we want to bend it
+to society.
 
 Social Math is a confluence of the following:
 
-* Mathematics, especially category theory
+* Mathematics, especially category theory 
 * Chemistry
 * Hegelian and Marxian dialectics
 * Rolequeer ethics
 * Actual experience of living in this world
 
-
-
-
-{% if 1==2 %}
+{% comment %}
 
 These ways of thinking which mathematicians are especially good at
 are, broadly:
@@ -197,6 +214,11 @@ precision is overrated: accuracy is really more important, and
 sometimes mathematicians won't appreciate an accurate statement just
 because it is not expressed precisely (I have this problem).
 
-jokes!
+One way we can see that mathematicians apply their conceptual
+techniques outside mathematics is by looking at their jokes.  Unlike
+in-jokes of other fields, in which only the _content_ references the
+field, the form of mathematical jokes references mathematics.  I need
+to elaborate more if I really want to make this point, hence it is in
+a comment.
 
-{% endif %}
+{% endcomment %}
