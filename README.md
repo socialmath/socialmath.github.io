@@ -45,40 +45,66 @@ links to some version of it.  Here is `manifesto.md`, for example:
 ---
 title: Manifesto
 published: false
+versions:
+  - 1
+  - 2
+---
+```
+
+Notice that there is no content, just YAML front matter!  The content
+is in `/versions/manifesto-1.md` and `/versions/manifesto-2.md`.  The
+front matter indicates that we want both versions, 1 and 2, to be
+displayed.  If we wanted just one version, say version 1, then we
+would change our front matter as follows:
+
+```
+---
+title: Manifesto
+published: false
 version: 1
 ---
 ```
 
-Notice that there is no content!  The content is in
-`/versions/manifesto-1.md`.  If we wanted to use
-`/versions/manifesto-2.md`, we would change the fifth line of
-`manifesto.md` to `version: 2`.  If we wanted to use
-`/versions/manifesto-sillyversion.md`, we would change this line to
-`version: sillyversion`.  Of course, it would be annoying to make
-these changes on github because they would have to be commits, so if
-you want to toggle between versions you should branch and clone the
-repository and do it locally.  Instructions for setting up an
-environment for locally hosing github-pages websites can be found in
-the index.md file.
+Of course, it would be annoying to make these changes on github
+because they would have to be commits, so if you want to toggle
+between versions you should branch and clone the repository and do it
+locally.  Instructions for setting up an environment for locally
+hosing github-pages websites can be found in the index.md file.
 
 How does this work?  Well, `manifesto.md` uses the layout
 `_layouts/katex.html`, which has the following body:
 
+
 ```
-  <body>
-    {% if page.version %}
-      {% capture version_name %}/_versions/{{page.title | downcase}}-{{page.version}}.md{% endcapture %}
+<body>
+  {% if page.version %}
+    {% capture version_name %}/_versions/{{page.title | downcase}}-{{ page.version }}.md{% endcapture %}
+    {% capture version_content %}{% include_relative {{ version_name }} %}{% endcapture %}
+    {{ version_content | markdownify }}
+  {% elsif page.versions %}
+    <h1> Versions of {{ page.title }} </h1>
+    {% for version in page.versions %}
+      <h2> Version {{ version }} </h2>
+      {% capture version_name %}/_versions/{{page.title | downcase}}-{{version}}.md{% endcapture %}
       {% capture version_content %}{% include_relative {{ version_name }} %}{% endcapture %}
-      {{ version_content | markdownify }} 
-    {% else %}
-      {{ content }}
-    {% endif %}
-  </body>
+      {{ version_content | markdownify }}
+    {% endfor %}
+  {% else %}
+    {{ content }}
+  {% endif %}
+</body>
 ```
 
-This looks at the version tag in `manifesto.md` and if it exists,
-finds the correct file to display.  Otherwise, it just prints the
-content of the file.
+This looks at the `version` variable in `manifesto.md` and if it
+exists, finds the correct file to display.  If the `version` variables
+doesn't exist, it looks for the `versions` variable and finds the
+correct files to display, each with its own header.  We don't really
+want these headers on the "finished" website, which will just have a
+single version, but the `versions` variable won't be used on the
+"finished website", just the `version` variable, because by then we
+will have chosen a version.  The `versions` variable is really just
+for testing.  If neither the `version` variable or the `versions`
+variable exists, the actual content of the file is printed.
 
 How does Jekyll know that `manifesto.md` uses the layout
 `_layouts/katex.html`?  Well, `_config.yml` has the line
@@ -95,4 +121,4 @@ say, `_layouts/page.html`, we could put the line
 layout: page
 ```
 
-at the top of that file.
+in the YAML front matter at the top of that file.
