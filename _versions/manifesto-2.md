@@ -7,12 +7,11 @@ sense of life in general.  But the mathematics we learn has nothing to
 do with life in general!  It is all about manipulating shapes,
 numbers, and symbols abstractly.  You have to learn a lot of
 mathematics, which is really difficult in our society given how it's
-taught, before you see its relevance to life in general.  Social Math
-
-aims to talk about math in such a way that its relevance to life in
-general is immediately apparent.  I also aim to make this math easily
-accessible to the people it can help, which is anyone, not just people
-who are already mathematicians.
+taught, before you see its relevance to life in general.  Social Math,
+however, aims to talk about math in such a way that its relevance to
+life in general is immediately apparent.  I also aim to make this math
+easily accessible to the people it can help, which is anyone, not just
+people who are already mathematicians.
 
 This is very different than what mathematicians usually do.  They
 usually go to school for years and years to learn the powerful system
