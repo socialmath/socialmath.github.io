@@ -72,7 +72,7 @@ locally.  Instructions for setting up an environment for locally
 hosing github-pages websites can be found in the index.md file.
 
 How does this work?  Well, `manifesto.md` uses the layout
-`_layouts/katex.html`, which has the following body:
+`_layouts/default.html`, which has the following body:
 
 
 ```
@@ -107,14 +107,14 @@ for testing.  If neither the `version` variable or the `versions`
 variable exists, the actual content of the file is printed.
 
 How does Jekyll know that `manifesto.md` uses the layout
-`_layouts/katex.html`?  Well, `_config.yml` has the line
+`_layouts/default.html`?  Well, `_config.yml` has the line
 
 ```
-layout: katex
+layout: default
 ```
 
 which indicates that the default layout for all files is
-`_layouts/katex.html`.  If we wanted a different layout for some file,
+`_layouts/default.html`.  If we wanted a different layout for some file,
 say, `_layouts/page.html`, we could put the line
 
 ```

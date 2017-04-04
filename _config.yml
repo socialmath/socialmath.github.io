@@ -10,7 +10,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: katex
+      layout: default
   
 # Default URL is just the title of the page without the path
 permalink: /:title/
