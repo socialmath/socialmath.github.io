@@ -44,7 +44,6 @@ links to some version of it.  Here is `manifesto.md`, for example:
 ```
 ---
 title: Manifesto
-published: false
 versions:
   - 1
   - 2
@@ -60,7 +59,6 @@ would change our front matter as follows:
 ```
 ---
 title: Manifesto
-published: false
 version: 1
 ---
 ```
