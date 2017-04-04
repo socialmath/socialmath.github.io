@@ -1,12 +1,9 @@
 
 # This file contains configuration flags to customize your site
-#
 
-# Name of your site (displayed in the header)
-name: SocialMath
+title: SocialMath
 
-# Short bio or description (displayed in the header)
-description: Mathematics for Describing Social Phenomena
+description: Mathematics with social relevance that is immediately apparent
 
 defaults:
   -
