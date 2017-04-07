@@ -1,6 +1,5 @@
 ---
 title: The Four Types/Aspects of Love
-published: false
 ---
 
 ### The Four Types/Aspects of Love
