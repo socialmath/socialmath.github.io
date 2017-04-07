@@ -39,5 +39,6 @@ em {
 }
 
 blockquote {
-    border-left: 2px solid #bbbbbb; padding-left: 15px;
+    border-left: 2px solid #bbbbbb;
+    padding-left: 15px;
 }
