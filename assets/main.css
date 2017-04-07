@@ -37,3 +37,7 @@ em {
     margin-right: auto;
     margin-left: auto;
 }
+
+blockquote {
+    border-left: 2px solid #bbbbbb; padding-left: 15px;
+}
