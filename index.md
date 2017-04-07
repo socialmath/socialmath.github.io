@@ -11,6 +11,14 @@ yet but there will be sometime soon.
 disbelief until you've actually seen examples of Social Math (coming
 soon).
 
+### Theory of Love
+
+I am currently typing up my theory of love.  Before this first public
+appearance, it only existed in my mind, in a few pages of old
+notebooks, and in the minds of friends that I explained it to.
+
+1. [The four types/aspects of love](/love/four_types/)
+
 ### What I did to set up this site
 
 [Here](/technical/) is a technical description.
