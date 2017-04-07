@@ -144,8 +144,8 @@ forces.
 > disbelieve the conclusion of a convincing argument, as my
 > rationality prevents me!  These limitations on my actions and
 > thoughts are what make me a human living in a community with other
-> humans, rather than a rock, or a lonely god sitting in a far-off
-> world.
+> humans, rather than a (true, not pseudo-) random number generator,
+> or the lonely god of a far-off, empty world.
 >
 > Normative forces are not absolutely compelling.  It is possible to
 > fight against them, and sometimes two normative forces will fight
