@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="no"?>
+
+<!-- The following line will need to be commented again if
+this file is regenerated with xfig -->
+
+<!-- <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> -->
+
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5e -->
+<!-- CreationDate: Fri Apr  7 00:34:28 2017 -->
+<!-- Magnification: 1.050 -->
+<svg	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="6.4in" height="4.0in"
+	viewBox="-12 -12 7631 4749">
+<g style="stroke-width:.025in; fill:none">
+<!-- Circle -->
+<circle cx="2834" cy="2362" r="1889"
+ style="stroke:#000000;stroke-width:8;"/>
+<!-- Circle -->
+<circle cx="4771" cy="2362" r="1891"
+ style="stroke:#000000;stroke-width:8;"/>
+<!-- Line: box -->
+<rect x="0" y="0" width="7606" height="4724" rx="0" 
+style="stroke:#000000;stroke-width:8;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Text -->
+<text xml:space="preserve" x="2503" y="425" fill="#000000"  font-family="Times" font-style="normal" font-weight="normal" font-size="152" text-anchor="start">Kinetic</text>
+<!-- Text -->
+<text xml:space="preserve" x="4393" y="425" fill="#000000"  font-family="Times" font-style="normal" font-weight="normal" font-size="152" text-anchor="start">Ostensive</text>
+<!-- Text -->
+<text xml:space="preserve" x="5338" y="2598" fill="#000000"  font-family="Times" font-style="normal" font-weight="normal" font-size="152" text-anchor="start">Compliments</text>
+<!-- Text -->
+<text xml:space="preserve" x="3212" y="2173" fill="#000000"  font-family="Times" font-style="normal" font-weight="normal" font-size="152" text-anchor="start">Hospitality</text>
+<!-- Text -->
+<text xml:space="preserve" x="1417" y="1889" fill="#000000"  font-family="Times" font-style="normal" font-weight="normal" font-size="152" text-anchor="start">Anonymous help</text>
+<!-- Text -->
+<text xml:space="preserve" x="1275" y="2456" fill="#000000"  font-family="Times" font-style="normal" font-weight="normal" font-size="152" text-anchor="start">Secret help</text>
+<!-- Text -->
+<text xml:space="preserve" x="5338" y="2173" fill="#000000"  font-family="Times" font-style="normal" font-weight="normal" font-size="152" text-anchor="start">Hugs</text>
+<!-- Text -->
+<text xml:space="preserve" x="2740" y="4535" fill="#000000"  font-family="Times" font-style="normal" font-weight="normal" font-size="152" text-anchor="start">Unsent love letters</text>
+<!-- Text -->
+<text xml:space="preserve" x="3259" y="2645" fill="#000000"  font-family="Times" font-style="normal" font-weight="normal" font-size="152" text-anchor="start">Collaboration</text>
+</g>
+</svg>
