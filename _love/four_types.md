@@ -208,11 +208,35 @@ involved in the genesis of love: a person will often start loving
 because of a normative force to love, i.e. normative love precedes and
 causes love.
 
-Again, these four types of love largely rely on each other, so they might
-be more aptly called _aspects_ of love.  They can stand alone, but
-their existence alone is tenuous.
+{% comment %}
 
-### Combinations of the Types
+You might think that this is a strange way of talking, because we are
+talking as if merely feeling compelled to love a person is a way to
+love them, even if the compulsion is not fulfilled.  It is also
+strange semantically: to normatively love is not an action that you
+can take, it is something that happens to you, and this runs counter
+to the normal way that we use the word "love".  However,
+
+1. Feeling compelled to love someone is a [widely acknowledged aspect
+   of love])(https://www.youtube.com/watch?v=PHZ1Bii7Uwk).  Without
+   it, we could just stop loving someone on a dime, and there would be
+   no way to rely on each other.  Love needs a component of potential
+   love to be intentional, but it needs a component of normative love
+   to be lasting.
+2. There is no reason to think that every component of love must be an
+   action taken by the lover.
+3. It is not really that weird for a verb to indicate something that
+   happens to you, rather than something you do.  "I resemble Henry"
+   
+   ...
+
+{% endcomment %}
+
+These four types of love largely rely on each other, so they might be
+more aptly called _aspects_ of love.  They can stand alone, but their
+existence alone is tenuous.
+
+### Combinations of the Types of Love
 
 Potential love is willingness to love if needed, but which type of
 love?  We can distinguish subtypes of potential love:
@@ -221,12 +245,19 @@ love?  We can distinguish subtypes of potential love:
   needed.
 * Potentially ostensive love: The willingness to ostensively love when
   needed.
-* Potentially potential love: The willingness to potentially love when
-  needed.
+* Potentially potential love: The willingness to continue or initiate
+  potentially loving if needed.
 * Potentially normative love probably doesn't make too much sense,
   because you don't choose to normatively love, it is something that
   happens to you.  Maybe potentially normative love could be defined
   as being ok with normatively loving?  I'm not sure.
+
+We spoke before about how kinetic and ostensive love have no
+intentionality, and could even happen as a result of dice rolls.
+However, kinetic love acquires intentionality if it arises from the
+intention to kinetically love, i.e. _potentially kinetic love_; and
+similarly, ostensive love acquires intentionality if it is arises from
+_potentially ostensive love_.
 
 Often we will not make this subtle distinction, and we will just speak
 of "potential love".  This can be interpreted either as an unspecified
