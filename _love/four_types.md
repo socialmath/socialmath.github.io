@@ -4,14 +4,15 @@ title: The Four Types/Aspects of Love
 
 ### The Four Types/Aspects of Love
 
-> “Love is a decision, it is a judgment, it is a promise. If love were
+> Love is a decision, it is a judgment, it is a promise. If love were
 > only a feeling, there would be no basis for the promise to love each
 > other forever. A feeling comes and it may go. How can I judge that
 > it will stay forever, when my act does not involve judgment and
-> decision.”
-> `--` Erich Fromm, _The Art of Loving_
-
-{% comment %} possibly markup as epigraph {% endcomment %}
+> decision.
+>
+> Erich Fromm, _The Art of Loving_, 1956
+> {:.epigraph-citation}
+{:.epigraph}
 
 In the application of mathematics to society, what better place to
 start than with love?  Without love, there wouldn't even be societies,

@@ -42,3 +42,13 @@ blockquote {
     border-left: 2px solid #bbbbbb;
     padding-left: 15px;
 }
+
+.epigraph > .epigraph-citation {
+    text-align: right;
+}
+
+.epigraph > .epigraph-citation:before {
+    /* This inserts an emdash and a non-break space before the citation:
+   */
+    content: "\2014 \00a0";
+}
