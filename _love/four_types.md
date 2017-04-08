@@ -69,7 +69,7 @@ potential love.  Though in a sense kinetic and potential love are
 different types of love, they are really two aspects of love itself,
 because one could not possibly exist without the other also existing.
 
-### Ostensive and Normative Love
+### Ostensive Love
 
 To ostensively love someone is to _seem_ like you love them.  This
 includes shows of affection, confessions of love, sex, and actions of
@@ -101,6 +101,53 @@ Just showing affection is not enough.  I am not saying that ostensive
 love is not important, just that it is not as important as kinetic
 love.  The importance of ostensive love is that without it nobody
 would know that you kinetically loved.
+
+Some clarification is needed on the meaning of "ostensive love".
+First of all, ostensive love is subjective.  It might seem to person
+$$X$$ but not to person $$Y$$ that you love a person $$Q$$.  Then you would
+be said to ostensively love person $$Q$$ _with respect to_ $$X$$, but not
+_with respect to_ $$Y$$.  For example, in Shakespeare's _Romeo and
+Juliet_, Juliet ostensively loves Romeo _with respect to_ Romeo, but
+not _with respect to_ Juliet's father.  This is because to Romeo it
+seems like Juliet loves Romeo, but to Juliet's father it does not at
+all seem like Juliet loves Romeo.  And if, in an alternate world,
+Juliet had never confided her love to Romeo, but instead sought her
+father's counsel on the matter, then she would ostensively love Romeo
+_with respect to_ her father but not _with respect to_ Romeo.
+
+If we write "$$A$$ ostensively loves $$B$$" as above without specifying to
+whom this ostensive love is _with respect to_, then we are being
+vague, but in many cases this is ok because it's clear from the
+context who the ostensive love is _with respect to_.  Often we will
+mean that it seems like $$A$$ loves $$B$$ to any onlookers who happen to
+be around, i.e. $$A$$ loves $$B$$ _with respect to_ onlookers.
+
+Second of all, it is possible to ostensively love someone without
+intending to do so, just as you can kinetically love someone as a
+unintended consequence of an action you took for a completely
+different reason.  Whether or not you love a person $$Q$$ ostensively
+_with respect to_ some person $$X$$ solely depends on whether or not it
+seems to $$X$$ like you love $$Q$$, and $$X$$ can totally get it wrong and
+think that you love $$Q$$ when you actually don't, and never intended
+for $$X$$ to get that impression.  So it's actually possible to
+ostensively love $$Q$$ without really doing anything at all, if someone
+happens to get the wrong idea and think that you love $$Q$$.
+
+This lack of intentionality in ostensive love is why potential love is
+important.  It would be possible, though extremely unlikely, for a
+person who bases all their actions on dice rolls to both kinetically
+and ostensively love someone for many years, but all their actions
+would be accidental.  It would only be a very small chance that they
+would continue to love the person the next day (when an unlikely thing
+happens lots of times in a row that doesn't make it any and more
+likely that it will happen again.  This is
+the
+[reverse gambler's fallacy](https://en.wikipedia.org/wiki/Gambler%27s_fallacy#Reverse_fallacy)).
+There is no intentionality to either kinetic or ostensive love.  The
+intentionality resides in potential love, the willingness (or
+intention) to love when needed.
+
+### Normative Love
 
 To talk about normative love, we must first talk about normative
 forces.
