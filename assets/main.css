@@ -22,9 +22,16 @@
 */
 
 @import url("ComputerModern/sans/cmun-sans.css");
+@import url("ComputerModern/serif/cmun-serif.css");
 
 body {
-    font-family: "Computer Modern Sans", sans-serif
+    font-family: "Computer Modern Sans", sans-serif;
+    font-size: 18px;
+    color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2
 }
 
 em {
@@ -33,14 +40,20 @@ em {
 }
 
 .wrapper {
-    max-width: 700px;
-    margin-right: auto;
-    margin-left: auto;
+    
+    max-width: 650px;
+    margin: 40px auto;
+    line-height: 1.6;
 }
 
 blockquote {
     border-left: 2px solid #bbbbbb;
     padding-left: 15px;
+}
+
+.katex {
+    /* Make math only 10% bigger instead of 20% bigger (default) */
+    font-size: 1.1em;
 }
 
 .epigraph > .epigraph-citation {
