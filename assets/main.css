@@ -21,12 +21,15 @@
 }
 */
 
+@import url("LatinModern/lmroman10.css");
 @import url("ComputerModern/sans/cmun-sans.css");
 @import url("ComputerModern/serif/cmun-serif.css");
 
+
 body {
-    font-family: "Computer Modern Sans", sans-serif;
-    font-size: 18px;
+   /* font-family: "Computer Modern Sans", sans-serif;*/
+    font-family: "latin_modern_roman10", sans-serif;
+    font-size: 20px;
     color: #444;
 }
 
