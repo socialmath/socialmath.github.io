@@ -1,5 +1,5 @@
 # Staticman
-staticman:
+comments:
   allowedFields: ["name", "email",  "message"]
   commitMessage: "New comment"
   filename: "comment-{@timestamp}"
