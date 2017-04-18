@@ -1,6 +1,7 @@
 # Staticman
 comments:
   allowedFields: ["name", "email",  "message"]
+  branch: master
   commitMessage: "New comment"
   filename: "comment-{@timestamp}"
   format: yml
