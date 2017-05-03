@@ -39,10 +39,20 @@ Here is our diagram.  It has one arrow `(1,0)` from $$B$$ to $$A$$.
 >              , aOffset = Just (-interOffset0)
 >              , dash = Nothing
 >              , label = Nothing
+>              },
+>    ArrowInfo { nodes = (1,2)
+>              , aOffset = Just (-interOffset0)
+>              , dash = Just [3,3]
+>              , label = Nothing
+>              },
+>    ArrowInfo { nodes = (0,2)
+>              , aOffset = Just (-2*interOffset0)
+>              , dash = Nothing
+>              , label = Nothing
 >              }] ["A", "B", "C"]
 >     # center # frame (0.5*edgeLength)
 
 And the output:
 
 > main :: IO ()
-> main = renderWithoutDOCTYPE "empathy1.svg" diagram
+> main = renderWithoutDOCTYPE "empathy4.svg" diagram

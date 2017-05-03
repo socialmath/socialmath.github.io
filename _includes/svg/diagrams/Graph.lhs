@@ -24,6 +24,7 @@ and `completeGraph`.
 > , horizTextGraph
 > , edgeLength
 > , interOffset0
+> , ArrowInfo(..)
 > ) where
 
 Some imports.
@@ -122,9 +123,22 @@ A graph consisting of nodes in a straight line is also useful:
 
 And with `textNode`s:
 
-> horizTextGraph n offsets arrows strings = atPoints [p2 (fromIntegral $ k*edgeLength,0) | k <- [0..(n-1)]]
+>-- horizTextGraph n offsets arrows strings = atPoints [p2 (fromIntegral $ k*edgeLength,0) | k <- [0..(n-1)]]
+>--     (zipWith textNode [0..(n-1)] strings)
+>--     # applyAll (zipWith (\(j,k) os -> connectNodes' os j k n) arrows offsets)
+
+We need a datatype that stores the information about an arrow:
+
+> data ArrowInfo = ArrowInfo { nodes :: (Int, Int)
+>                            , aOffset :: Maybe Double
+>                            , dash :: Maybe [Double]
+>                            , label :: Maybe String
+>                            }
+>
+> horizTextGraph n arrowInfos strings = atPoints [p2 (fromIntegral $ k*edgeLength,0) | k <- [0..(n-1)]]
 >     (zipWith textNode [0..(n-1)] strings)
->     # applyAll (zipWith (\(j,k) os -> connectNodes' os j k n) arrows offsets)
+>     # applyAll (map (connectNodes' n) arrowInfos)
+
 
 The two existing functions for connecting diagrams with arrows are
 `connectOutside'` and `connectPerim'`.  In `connectOutside'`, the
@@ -195,13 +209,26 @@ The actual angles passed to `connectOffset'` are
 `idAngle`$\pm$`idOffset`, where `idOffset` is just a constant.  TODO:
 make this not just a constant.
 
-> connectNodes = connectNodes' Nothing
+> connectNodes j k n = connectNodes' n (ArrowInfo { nodes = (j,k)
+>                                                 , aOffset = Nothing
+>                                                 , dash = Nothing
+>                                                 , label = Nothing
+>                                                 })
 >
-> connectNodes' myOffset j k n d -- myOffset is of type Maybe a
->     | j/=k = connectOffset' (interStyle interOffset') j k (interOffset' @@ turn) (-interOffset' @@ turn) d
->     | otherwise = connectPerim' (idStyle idOffset') j k (idAngle ^+^ (idOffset' @@ turn)) (idAngle ^-^ (idOffset' @@ turn)) d
+> connectNodes' n arrowInfo@(ArrowInfo { nodes = (j,k)
+>                                      , aOffset = myOffset
+>                                      , dash = myDash
+>                                      , label = myText
+>                                      }) d
+>     | j/=k = connectOffset' (interStyle arrowInfo') j k (interOffset' @@ turn) (-interOffset' @@ turn) d
+>     | otherwise = connectPerim' (idStyle arrowInfo') j k (idAngle ^+^ (idOffset' @@ turn)) (idAngle ^-^ (idOffset' @@ turn)) d
 >         where interOffset' = (maybe (interOffset j k n) id myOffset)
 >               idOffset' = maybe idOffset id myOffset
+>               arrowInfo' = ArrowInfo { nodes = (j,k)
+>                                      , aOffset = Just $ if (j==k) then idOffset' else interOffset'
+>                                      , dash = myDash
+>                                      , label = myText
+>                                      }
 >               idAngle =
 >                   let getLoc = (maybe (p2 (0,0)) location).((`lookupName` d).(`mod` n))
 >                       [nodeLoc,succLoc,predLoc] = map getLoc [j, succ j, pred j]
@@ -247,16 +274,29 @@ Now the `angleStyles` themselves:
 > shaftWidth = 1
 > arrowLength = 15
 > 
-> interStyle offset = (with & arrowHead .~ myTri
->                           & headLength .~ output arrowLength
->                           & arrowShaft .~ interShaft offset
->                           & shaftStyle %~ lwO shaftWidth)
+> interStyle ArrowInfo { nodes = (j,k)
+>                      , aOffset = Just theOffset
+>                      , dash = myDash
+>                      , label = myText
+>                      } =
+>   (with & arrowHead .~ myTri
+>         & headLength .~ output arrowLength
+>         & arrowShaft .~ interShaft theOffset
+>         & shaftStyle %~ (maybeDashing myDash))
 > 
-> idStyle offset = (with & arrowHead .~ myTri
->                        & arrowTail .~ lineTail
->                        & lengths .~ output arrowLength
->                        & arrowShaft .~ idShaft offset
->                        & shaftStyle %~ lwO shaftWidth)
+> idStyle ArrowInfo { nodes = (j,k)
+>                      , aOffset = Just theOffset
+>                      , dash = myDash
+>                      , label = myText
+>                      } =
+>   (with & arrowHead .~ myTri
+>         & arrowTail .~ lineTail
+>         & lengths .~ output arrowLength
+>         & arrowShaft .~ idShaft theOffset
+>         & shaftStyle %~ (maybeDashing myDash))
+>
+> maybeDashing Nothing = id
+> maybeDashing (Just dash) = dashingO dash 0
 
 For `idStyle`, it is important that the head and tail are the same
 length, since the arrow is very small.  Thus we have an `arrowTail`
