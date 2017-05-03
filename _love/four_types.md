@@ -77,7 +77,7 @@ includes shows of affection, confessions of love, sex, and actions of
 kinetic love that people know about.  We can make an Euler diagram to
 illustrate the distinction between kinetic love and ostensive love:
 
-{% include_relative svg/kinetic-ostensive.svg %}
+{% include svg/kinetic-ostensive.svg %}
 
 I know that hugs and compliments do have a component of kinetic love,
 but their main function is to communicate that you love someone,
