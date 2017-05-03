@@ -26,7 +26,7 @@ working by copying the KaTeX layout from
 [here](https://github.com/cben/sandbox/blob/gh-pages/_layouts/katex.html).  Here are some examples:
 
 $$
-\frac{3}{2}=\int_{-\infty}^\epsilon\dfrac{x}{y}
+\frac{3}{2}=\int_{-\infty}^\epsilon\dfrac{x}{y}+\textrm{some text}
 $$
 
 Here is some inline math: $$x$$, $$y$$, and $$x+y=\frac{2}{3}\sim\dfrac{3}{2}$$.
