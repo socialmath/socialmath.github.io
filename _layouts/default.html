@@ -39,14 +39,78 @@ edits.</a>
     for (var i = 0; i < scripts.length; i++) {
       /* TODO: keep going after an individual parse error. */
       var script = scripts[i];
+      
+      /* This is a regular expression.  The slashes "/" mark the start
+      and end of it.  The caret "^" indicates the beginning of the
+      line.  Script tags with both type="math/tex" and
+      type="math/tex; mode=display" are selected by this regexp. */
+      
       if (script.type.match(/^math\/tex/)) {
         var text = script.text === "" ? script.innerHTML : script.text;
-        var options = script.type.match(/mode\s*=\s*display/) ?
-                      {displayMode: true} : {};
+
+	/* Removing comments is important because kramdown adds a
+	TeX-commented CDATA wrapper to any math including the
+	characters < and &. KaTeX unfortunately doesn't respect
+	TeX-style comments (as MathJax does), so we need to help it
+	out here.  The reason that kramdown needs to add a CDATA
+	wrapper is that for some reason (idky) XHTML doesn't like '<'
+	and '&' in a script tag unless there's a CDATA wrapper.  XHTML
+	will see the wrapper because it doesn't respect TeX-style
+	comments.  For more information see
+	https://github.com/gettalong/kramdown/issues/292 and follow
+	the links. */
+	
+	var textWithoutComments = text.replace(/%.*/g, '');
+
+        var options = {
+	    displayMode: script.type.match(/mode\s*=\s*display/),
+	  macros: {
+	    "\\heart": "\\heartsuit",
+	    "\\butt": "\\yen" // Since katex hasn't implemented \rotatebox yet
+	    //"\\butt": "\\rotatebox[origin=c]{180}{\\heartsuit}}"
+	  }
+	};
         script.insertAdjacentHTML("beforebegin",
-                                  katex.renderToString(text, options));
+          katex.renderToString(textWithoutComments, options));
       }
     }
+
+    // Replace \\butt with inverted \heart, since katex hasn't implemented \rotatebox yet.
+    // (They are working on it: https://github.com/Khan/KaTeX/issues/681)
+    var katexs = document.getElementsByClassName("katex-html");
+    for (var i=0; i<katexs.length; i++) {
+        var spans = katexs[i].getElementsByTagName("span");
+        for (var j=0; j<spans.length; j++) {
+            var span = spans[j];
+	    console.log("Span: " + span.innerHTML);
+            if (span.innerHTML === "¥"){
+	        console.log("Got one!");
+                span.innerHTML = "♡";
+		span.style = "display: inline-block; transform: rotate(180deg)";
+            }
+        }
+    }
+    
+/* ---------maybe try this code again if svgs are embedded instead of included inline------------
+    var svgs = document.getElementsByClassName ("image/svg+xml");
+    for (var i = 0; i < svgs.length; i++) {
+	var svg = svgs[i];
+	var svgDoc = svg.contentDocument;
+	var texts = svgDoc.getElementsByTagName ("text");
+	for (var j = 0; j < texts.length; j++) {
+	    var text = texts[i];
+	    text.setAttributeNS (null, "style", "font-family: KaTeX_Math; font-style: italic");
+	}
+    }*//*
+    var svgs = document.getElementsByTagName ("svg");
+    for (var i = 0; i < svgs.length; i++) {
+	var svg = svgs[i];
+	var texts = svg.getElementsByTagName ("text");
+	for (var j = 0; j < texts.length; j++) {
+	    var text = texts[i];
+	    text.setAttributeNS (null, "style", "font-family: KaTeX_Math; font-style: italic");
+	}
+    }*/
     document.body.className += " math_finished";
   </script>
 </html>
