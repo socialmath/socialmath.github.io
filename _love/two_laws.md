@@ -358,13 +358,13 @@ Suppose that for whatever reason, $$B$$ is not very reactive to the
 normative force of the inference $$C\heart B \vdash B\heart C$$, so
 that $$B\heart C$$ stays purely normative.
 
-[]
+{% include svg/diagrams/empathy2.svg %}
 
 So $$B$$ feels a normative force to love $$C$$.  Since $$A\heart B$$,
 $$A$$ empathizes with $$B$$ and thus also feels this force.  Thus
 $$A\heart C$$ normatively.
 
-[]
+{% include svg/diagrams/empathy3.svg %}
 
 Now $$A$$ and $$B$$ both feel normative forces to love $$C$$.  $$A$$'s
 normative force is weaker than $$B$$'s, because of the loss associated
@@ -377,7 +377,7 @@ $$A$$'s reactivity to the normative force to love $$C$$ to be strong
 enough that $$A$$ begins to actually love $$C$$ in spite of the weaker
 normative force**.
 
-[]
+{% include svg/diagrams/empathy4.svg %}
 
 What is going on, in more usual language, is something like this.
 $$A$$ loves $$B$$ and sees that $$C$$ is helping $$B$$.  $$B$$ for
@@ -390,12 +390,12 @@ If we look at people as their interests, as described in the end of
 the previous section, then when $$A\heart B$$, $$B$$ is a part of
 $$A$$.  Then, when $$C$$ helps $$B$$, they help a part of $$A$$, so
 $$A\heart C$$ according to a simple application of the law of
-symmetry: $$C\heart B\subseteq A\vdash A\heart C$$.
+symmetry: $$C\heart A\vdash A\heart C$$.
 
 ### Communities Built Around A Common Love
 
 One application of the previous section is that in which $$B$$ is not
-a person, but rather some activity that $$A$$ and $$C$ both like
+a person, but rather some activity that $$A$$ and $$C$$ both like
 doing, a project they both like working on, or even a non-existent
 being such as God that they both purport to love.
 
@@ -411,22 +411,22 @@ For sake of illustration, suppose that $$B$$ is (some conception of)
 God.  We now go through the same narrative as in the previous section.
 We start with both $$A$$ and $$C$$ loving God:
 
-[]
+{% include svg/diagrams/empathy1.svg %}
 
 Then $$\textrm{God}\heart C$$ by symmetry.  But since God is non-existent and
 can't actually love $$C$$, this love is merely normative and
 ostensive.  It is normative because God _should_ love $$C$$ given
 all $$C$$ has done for God, and it is ostensive because it _appears_
-that $$\textrm{God}\heart C$.
+that $$\textrm{God}\heart C$$.
 
-[]
+{% include svg/diagrams/empathy2.svg %}
 
 $$\textrm{God}\heart C$$ ostensively _with respect to_ $$A$$, i.e. it
 _seems_ to $$A$$ like $$\textrm{God}\heart C$$.  From $$A$$'s
 perspective, $$A\heart \textrm{God}$$ and $$\textrm{God}\heart C$$ ---
 thus $$A$$ begins to love $$C$$.
 
-[]
+{% include svg/diagrams/empathy4.svg %}
 
 $$A$$ also begins to love $$C$$ because of the logic discussed in the
 previous section: $$A$$ empathizes with God, by virtue of $$A$$'s love
