@@ -68,3 +68,8 @@ blockquote {
    */
     content: "\2014 \00a0";
 }
+
+svg text {
+    font-family: KaTeX_Math;
+    font-style: italic
+}
