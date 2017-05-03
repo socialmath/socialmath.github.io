@@ -233,7 +233,7 @@ and transitivity.  This answers our previous question about lossiness.
 The inferences _are_ lossy, but repeated applications will combine to
 counter the loss.
 
-### Replenishing of Self-Love
+### The Replenishing of Self-Love
 
 There are three ways that self-love can be replenished.
 
@@ -548,9 +548,175 @@ This upgrade improves our model so that it captures
 
 * That $$A$$ can simultaneously love and hate $$B$$.  There is no
   contradiction here because love and hate are simply two different
-  arrows from $$A$$ to $$B$$ that both occur at the same time.
+  arrows from $$A$$ to $$B$$ that both occur at the same time.  This
+  is particularly important to keep in mind when reading the next
+  couple sections about hate.
 
-### Hate
+### The Laws of Hate
 
-We define hate as negative love, and we write it with an upside down
-heart: $$A \butt B$$ is taken to mean that $$A$$ hates $$B$$.
+Hate has all the same types/aspects as love: we can talk about kinetic
+hate (actually hurting someone), potential hate (having potential to
+hurt someone), normative hate (feeling compelled to hurt someone), and
+ostensive hate (seeming like you hate someone).  Just like love is not
+just a feeling and is primarily about the action of helping someone,
+hate is also not just a feeling: it is primarily about the action of
+hurting someone.
+
+We write hate with an upside down heart: $$A \butt B$$ is taken to
+mean that $$A$$ hates $$B$$.
+
+Now we write the laws of hate.
+
+1. Symmetry: $$A\butt B\vdash B\butt A$$.  If $$A$$ hates $$B$$, then
+   $$B$$ hates $$A$$.  This makes sense.  Basically, if $$A$$ does a
+   bad thing to $$B$$ then $$B$$ hates $$A$$.
+   
+2. Transitivity: $$A\heart B, B\butt C\vdash A\butt C$$.  If $$B$$
+   has an interest in hurting $$C$$ and $$A$$ loves $$B$$, then $$A$$
+   also has an interest in hurting $$C$$.  In short, the enemy of my
+   friend is my enemy.
+   
+3. Transitivity: $$A\butt B, B\heart C\vdash A\butt C$$.  If $$A$$
+   hates $$B$$, then they want $$B$$'s desires to not be fulfilled.
+   One of these desires is for $$C$$ to be free from harm.  Thus $$A$$
+   wants $$C$$ not to be free from harm, i.e. $$A$$ hates $$C$$.  In
+   short, the friend of my enemy is my enemy as well.
+   
+4. Transitivity: $$A\butt B, B\butt C\vdash A\heart C$$.  If $$B$$
+   hates $$C$$, then $$B$$ wants to hurt $$C$$.  If $$A$$ hates $$B$$,
+   then $$A$$ wants to hurt $$B$$ by thwarting their plans to hurt
+   $$C$$, i.e. $$A$$ wants to help $$C$$.  Thus $$A\heart C$$.  In
+   short, as the saying goes, "the enemy of my enemy is my friend".
+
+Notice that these are just the same as the laws of love, except that
+$$\heart$$s are at times replaced by $$\butt$$s.  The transitivity
+laws follow the same pattern as multiplying positive and negative
+numbers.  Just as a positive times a negative is a negative, a
+$$\heart$$ and a $$\butt$$ produce a $$\butt$$.  And just as two
+negatives make a positive, two $$\butt$$s make a $$\heart$$.  Thus we
+can speak of hate as negative love.
+
+### The Genesis of Self-Hate
+
+How does someone begin to hate themself?  There are two possible
+mechanisms:
+
+1. $$A\heart B, B\butt A \vdash A\butt A$$.  This is the case where
+   $$A$$ loves someone, $$B$$, who hates them.  $$B$$ is perhaps an
+   abusive parent of $$A$$, who kinetically hates $$A$$ although $$A$$
+   loves them.  In this situation, $$A$$ starts to see themself
+   through $$B$$'s eyes, and thus starts to hate themself as $$B$$
+   hates them.
+   
+2. $$A\butt B, B\heart A \vdash A\butt A$$.  This is the case where
+   $$A$$ hates someone, $$B$$, who loves them.  Perhaps $$A$$ is now
+   the abusive parent, and they kinetically hate their child, $$B$$,
+   who loves them.  Since $$B\heart A$$, $$B$$ is involved in helping
+   $$A$$.  Thus when $$A\butt B$$, $$A$$ damages something which helps
+   themself, and thus $$A$$ hurts themself.  Another instance of this
+   is where $$A$$ is a traitor and $$B$$ is the community they have
+   betrayed.  Since their community benefits them, they have actually
+   hurt themself through their act of betrayal, since they have
+   sabotaged something that was benefiting them.
+   
+Both of these inferences are abusive relationships.  In the first,
+$$A$$ is the victim; in the second, $$A$$ is the abuser.  Both roles
+engender self-hate.
+
+### How Hate Can Unite a Community
+
+Interestingly, the laws of hate have given us another means for the
+genesis of self-love.  Suppose we start again with an isolated $$A$$.
+
+{% include svg/diagrams/selfLove1.svg %}
+
+Then $$B$$ comes along and hates $$A$$.
+
+{% include svg/diagrams/selfLove2.svg %}
+
+By the symmetry of hate, $$A$$ hates $$B$$ in return.
+
+{% include svg/diagrams/selfLove3.svg %}
+
+Since $$A\butt B$$ and $$B\butt A$$, the transitivity of hate tells us
+that $$A\heart A$$.
+
+{% include svg/diagrams/selfLove4.svg %}
+
+What has happened is that $$A$$ has united with themself against a
+common enemy, $$B$$.  This makes a lot of sense in the case where
+$$A$$ is a community, and $$B$$ is a threat to the commuunity.  The
+community $$A$$ unites and loves itself because through doing this it
+thrwarts the plans of the enemy $$B$$, who aims to hurt $$A$$.
+
+### The Consequences of Self-Hate
+
+Now suppose $$A\butt A$$.  How does it affect $$A$$'s relationships?
+We have 4 inferences:
+
+1. $$A\butt A, A\heart B\vdash A\butt B$$.  A self-hating person will
+   hate those they love, because they can hurt themself by hurting
+   those they love.
+   
+2. $$A\butt A, A\heart B\vdash A\butt B$$.  A self-hating person will
+   help their enemies, as by doing so they can hurt themself.
+
+3. $$B\heart A,A\butt A\vdash B\butt A$$.  If $$B$$ loves a
+   self-hating person $$A$$, then $$B$$ might by hoodwinked into
+   actually hating $$A$$, as they assist $$A$$ in hurting themself.
+   This is _enabling_.
+
+4. $$B\butt A,A\butt A\vdash B\heart A$$.  If $$B$$ hates a
+   self-hating person $$A$$, then $$B$$ might decide to help $$A$$,
+   that $$A$$ may better hurt themself.  Thus $$B\heart A$$.
+
+Thus every relationship that a self-hating person is in will turn into
+an abusive relationship.
+
+### The Replenishing of Self-Hate
+
+How is $$A$$'s self-hate mainatined?  There are five possible mechanisms:
+
+1. $$A\butt A\vdash A\butt A$$.  A self-hating person hates themself
+   in retaliation for the harm they have inflicted on themself.  In
+   other words, a self-hating person hates themself for being a
+   self-hating person.
+
+2. $$A\heart B, B\butt A\vdash A\butt A$$.
+3. $$A\butt A, B\heart A\vdash A\butt A$$.  These two inferences are
+   identical to those in the section on the genesis of self-hate.
+   They infer self-hate from an abusive relationship.  But since every
+   relationship that a self-hating person is in is abusive, all
+   reiationships that they have will reinforce their self-hate.
+
+4. $$A\heart A, A\butt A\vdash A\butt A$$.  $$A$$ loves themself, so
+   they help themself hurt themself.  Thus self-love also reinforces
+   self-hate.
+   
+5. $$A\butt A, A\heart A\vdash A\butt A$$.  $$A$$ hates themself, so
+   they thwart their own efforts to love themself by hating themself.
+
+This is all very bleak.  Now for something redeeming.
+
+### Something Redeeming
+
+Consider this inference: $$A\butt A,A\butt A\vdash A\heart A$$.  In
+other words, if $$A$$ hates themself, then they are the enemy of their
+enemy, so they are their friend!  Thus self-hate begets self-love.
+
+Let's think more about what this means.  $$A$$ hates themself, so we
+can think of $$A$$ as divided against itself in two parts which hate
+each other.
+
+{% include svg/diagrams/divided1.svg %}
+
+Each part unites with itself against a common enemy, as descrbed in
+the section titled "How Hate Can Unite a Community".
+
+{% include svg/diagrams/divided2.svg %}
+
+This really happens.  When someone hates themself, they unite with
+themself against themself, and the resulting self-love can be very
+powerful.  People go to great lengths to hate themselves.
+
+I guess that's not really very redeeming...oh well.
