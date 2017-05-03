@@ -52,6 +52,7 @@ em {
 blockquote {
     border-left: 2px solid #bbbbbb;
     padding-left: 15px;
+    font-size: 0.8em;
 }
 
 .katex {
