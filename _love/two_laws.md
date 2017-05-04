@@ -43,7 +43,7 @@ and we have used the symbol "$$\vdash$$" instead of the words
 "If...then".
 
 > ## A tangent about why I chose the symbol $$\vdash$$:
-
+>
 > The symbol $$\vdash$$ is called a "turnstile" and it is used in
 > formal logic for inferences, i.e. $$P\vdash Q$$ means that we infer
 > $$Q$$ from $$P$$ according to some agreed-upon "rules of inference".
@@ -119,13 +119,15 @@ four caveats:
    $$A$$ doesn't just love or not-love a person $$B$$, there are
    degrees of loving.  $$A$$ can love $$B$$ more or less.  The
    statement $$A\heart B$$ isn't simply true or false, there are
-   degrees of truth.
+   degrees of truth. {% include svg/diagrams/fuzzy.svg %}
+   
+{:start="2"}
 2. Delay: The two laws of love have delays built in.  If $$A$$ loves
    $$B$$, then $$B$$ _will_ love $$A$$ _later_.  If $$A$$ loves $$B$$
    and $$B$$ loves $$C$$, then $$A$$ _will_ love $$C$$ _later_.
 3. Lossiness: There is a loss involved with each of the above laws.
    If $$A$$ loves $$B$$, then later $$B$$ will love $$A$$ _less_ (than
-   how much $$A$$ loves $$B$$).  If $$A$$ loves $$B$$$ and $$B$$ loves
+   how much $$A$$ loves $$B$$).  If $$A$$ loves $$B$$ and $$B$$ loves
    $$C$$, then later $$A$$ will love $$C$$ less.
 4. Normativity: The [conclusions]() of the above laws is
    merely [normative]().  So if $$A$$ loves $$B$$, then after a delay
@@ -320,7 +322,7 @@ transitivity.  If the interests of $$A$$ include those of $$B$$ and
 the interests of $$B$$ include those of $$C$$, then those of $$A$$
 will include those of $$C$$.
 
-[euler diagram]
+{% include svg/diagrams/interestsEuler.svg %}
 
 Now the law of symmetry, with the caveats, says broadly that if
 $$A$$'s interests include $$B$$'s, there will be a tendency for
@@ -550,7 +552,9 @@ This upgrade improves our model so that it captures
   contradiction here because love and hate are simply two different
   arrows from $$A$$ to $$B$$ that both occur at the same time.  This
   is particularly important to keep in mind when reading the next
-  couple sections about hate.
+  couple sections about hate.  Also important to keep in mind is that
+  there can be multiple "hate" arrows from $$A$$ to $$B$$ representing
+  different ways that $$A$$ hates $$B$$.
 
 ### The Laws of Hate
 
@@ -592,9 +596,37 @@ Notice that these are just the same as the laws of love, except that
 $$\heart$$s are at times replaced by $$\butt$$s.  The transitivity
 laws follow the same pattern as multiplying positive and negative
 numbers.  Just as a positive times a negative is a negative, a
-$$\heart$$ and a $$\butt$$ produce a $$\butt$$.  And just as two
-negatives make a positive, two $$\butt$$s make a $$\heart$$.  Thus we
-can speak of hate as negative love.
+$$\heart$$ and a $$\butt$$ produce a $$\butt$$.  And just as a
+negative times a negative is a positive, two $$\butt$$s make a
+$$\heart$$.  Thus we can speak of hate as negative love.
+
+### A Brief Recap of Our Changing Logic
+
+Before continuing to talk about hate, I will recap the stages through
+which our logic has traveled so far.
+
+1. (starting point) $$A$$ either loves $$B$$ or doesn't.  In other
+   words, $$A\heart B$$ is either true or false.
+
+2. (the "fuzzy" caveat) There are degrees of love.  $$A\heart B$$ can
+   be more or less true.  There is a continuous spectrum of truth,
+   with "False" at one extreme and "True" at the other. {% include svg/diagrams/fuzzy.svg %}
+   
+{:start="3"}
+3. (love as a quiver) Love is multifaceted.  $$A$$ can love $$B$$ in
+   multiple ways at the same time.  Now $$A\heart B$$ looks like this: {% include svg/diagrams/multifaceted.svg %} 
+   
+{:style="list-style-type: none;"}
+100. Each arrow represents a different aspect of $$A$$'s love for
+     $$B$$, and each arrow's truth lies somewhere on the spectrum from
+     True to False.
+   
+{:start="4"}
+4. (introduction of hate) Love can be negative, and this negative love
+   is called hate.  Now we have the same diagram as stage 3, except
+   the truth of the arrows lies on a scale from $$-$$True to False to
+   True. {% include svg/diagrams/bifuzzy.svg %}
+   
 
 ### The Genesis of Self-Hate
 
@@ -619,9 +651,37 @@ mechanisms:
    hurt themself through their act of betrayal, since they have
    sabotaged something that was benefiting them.
    
-Both of these inferences are abusive relationships.  In the first,
+Both of these cimcumstances are abusive relationships.  In the first,
 $$A$$ is the victim; in the second, $$A$$ is the abuser.  Both roles
 engender self-hate.
+
+It is not always bad to hate oneself.  There are some aspects of me
+(for instance) that should be hated, and it is healthy for me to hate
+them and try to overcome them.  There is a popular misconception that
+hating these aspects of myself is antithetical to my overcoming them,
+since I will just feel guilty and not get to the root of the problem.
+However, this is only a characteristic of _ineffective_ hate.  If I
+effectively hate the right parts of myself and I support myself in the
+effort to hate them, I do have a chance at overcoming them.
+
+This benign self-hate can be generated with the same mechanisms as
+shown above, but the examples must be reinterpreted:
+
+1. $$A\heart B, B\butt A\vdash A\butt A$$.  $$B$$ is training $$A$$ in
+   some sport, musical instrument, or other skill.  In addition to
+   helping $$A$$ learn things related to this skill, $$B$$ must also
+   help $$A$$ unlearn things that impede this skill, such as bad
+   habits $$A$$ got from school.  $$B$$ kinetically hates the parts of
+   $$A$$ that have these bad habits by advising and helping $$A$$ to
+   get rid of them.  Since $$A\heart B$$, $$B$$'s advice is accepted,
+   and $$A$$ starts to kinetically hate these parts of themself as
+   well.  In this example, $$B$$ has actually loved $$A$$ by hating
+   them and helping them hate themself.
+   
+2. $$A\butt B, B\heart A\vdash A\butt A$$.  Suppose $$A$$ hurts $$B$$
+   (who loves $$A$$), and they feel guilty, as in the previous
+   example.  It is ethical and healthy for $$A$$ to hate themself, or
+   at least the part of them which hurt $$B$$.
 
 ### How Hate Can Unite a Community
 
@@ -670,8 +730,19 @@ We have 4 inferences:
    self-hating person $$A$$, then $$B$$ might decide to help $$A$$,
    that $$A$$ may better hurt themself.  Thus $$B\heart A$$.
 
-Thus every relationship that a self-hating person is in will turn into
-an abusive relationship.
+Inferences 3 and 4 could be benign, if we take $$B$$ to be the trainer
+from the previous section.  Since the trainer loves $$A$$, they will
+help $$A$$ hate certain parts of themself, i.e. they will hate $$A$$.
+And since the trainer $$B$$ hates these parts of $$A$$, $$B$$ will
+support $$A$$ in their efforts to hate them too, i.e. $$B$$ will love
+$$A$$.
+
+In addition to describing some instances of depression, inferences 1
+and 2 could descibe someone in the process of great change, who
+chooses to switch sides in a war, for instance.  They hate who they
+used to be, which is themself, thus they hate themself.  Out of hate
+for themself, they push away those who used to be on their side, and
+embrace those who used to be the enemy.
 
 ### The Replenishing of Self-Hate
 
@@ -686,7 +757,7 @@ How is $$A$$'s self-hate mainatined?  There are five possible mechanisms:
 3. $$A\butt A, B\heart A\vdash A\butt A$$.  These two inferences are
    identical to those in the section on the genesis of self-hate.
    They infer self-hate from an abusive relationship.  But since every
-   relationship that a self-hating person is in is abusive, all
+   relationship that a self-hating person has is abusive, all
    reiationships that they have will reinforce their self-hate.
 
 4. $$A\heart A, A\butt A\vdash A\butt A$$.  $$A$$ loves themself, so
@@ -696,9 +767,7 @@ How is $$A$$'s self-hate mainatined?  There are five possible mechanisms:
 5. $$A\butt A, A\heart A\vdash A\butt A$$.  $$A$$ hates themself, so
    they thwart their own efforts to love themself by hating themself.
 
-This is all very bleak.  Now for something redeeming.
-
-### Something Redeeming
+### Self-Hate Begets Self-Love
 
 Consider this inference: $$A\butt A,A\butt A\vdash A\heart A$$.  In
 other words, if $$A$$ hates themself, then they are the enemy of their
@@ -719,4 +788,41 @@ This really happens.  When someone hates themself, they unite with
 themself against themself, and the resulting self-love can be very
 powerful.  People go to great lengths to hate themselves.
 
-I guess that's not really very redeeming...oh well.
+So both self-hate and self-love beget self-love, and any form of love
+or hate from another person begets self-love.  The only person who
+would lack any semblance of self-love is the person who is completely
+isolated, such as the "isolated nodes" in the graph above.
+
+### Further Work
+
+Here are some things that should be done:
+
+* I think that the rule $$A\heart B, C\heart B \vdash A\heart C$$ may
+  be more fundamental than transitivity, but I'm not sure.  This
+  should be thought about.
+  
+* I consistently conflate loving $$A$$ and loving a part or aspect of
+  $$A$$.  This conflation should be deconstructed.
+  
+* The structure of self-love, self-hate, love between two people, love
+  in a community, etc. should be more comprehensively analyzed.  If
+  the laws of love keep being applied to generate new arrows from old,
+  what is the general progression of the quiver?
+  
+* A lot of the concepts of this were initially from Erich Fromm's _The
+  Art of Loving_.  This book should be read in more detail and its
+  insights applied.
+  
+* This theory should be developed by applying it to literature,
+  biography, and history, where much more complex situations than my
+  little examples arise.
+
+* It seems to me that saying $$A\heart B$$ is very similar to saying
+  that $$B$$ is an interest of $$A$$.  Thus $$I(A)$$ is the set of all
+  entities that $$A$$ loves.  These entities don't have to be people.
+  But then $$I(A)$$ is not just a set, because it has lots of
+  structure now.  This gives a direct social manifestation of the
+  Yoneda Lemma, and should be worked out in more detail.
+  
+* An analysis of dominance, submission, oppression, and liberation is
+  sorely lacking.  This needs to be added.
