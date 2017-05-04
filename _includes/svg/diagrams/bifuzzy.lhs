@@ -36,7 +36,7 @@ Here is our diagram.
 >                             (-0.5*_width,0.65*_height+_textSize), (0,0.65*_height+_textSize), (0.5*_width,0.65*_height+_textSize)])
 >   [(rect _width _height # fillTexture gradient # lw 1),
 >     alignedText 0 0 "Much hate", alignedText 0.5 0 "No intimacy", alignedText 1 0 "Much love",
->     alignedText 0 0 "-True", alignedText 0.5 0 "False", alignedText 1 0 "True"]
+>     alignedText 0 0 "&minus;True", alignedText 0.5 0 "False", alignedText 1 0 "True"]
 
 >   # fontSizeO _textSize # center # frame (0.5*100)
 

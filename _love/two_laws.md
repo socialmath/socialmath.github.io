@@ -82,7 +82,9 @@ represented by the second dot.
 {% include svg/diagrams/community1.svg %}
 
 > BTW, what we have just drawn is a mathematical object called a
-> graph.  A graph consists of dots and arrows connecting them.
+> directed graph.  A graph consists of dots and lines connecting them.
+> The word "directed" indicates that the lines are actually arrows,
+> i.e. they have direction.
 
 Notice that this diagram obeys both laws.  It obeys symmetry because
 whenever there is an arrow from a dot $$A$$ to a dot $$B$$, there is
@@ -358,7 +360,8 @@ clarifies.  Suppose $$A\heart B$$ and $$C\heart B$$.
 
 Suppose that for whatever reason, $$B$$ is not very reactive to the
 normative force of the inference $$C\heart B \vdash B\heart C$$, so
-that $$B\heart C$$ stays purely normative.
+that $$B\heart C$$ stays purely normative.  Since $$B\heart C$$ lacks
+actual reality, I use a dashed line for the arrow from $$B$$ to $$C$$.
 
 {% include svg/diagrams/empathy2.svg %}
 
@@ -442,7 +445,7 @@ will start to love each other, just as $$A$$ and $$C$$, united by a
 common love of God, begin to love each other.  As stated above, $$B$$
 actually doesn't have to be God _per se_, but could be a mission or
 activity.  Then the resulting community is not a religious community,
-but rather a community built around that misssion or activity.
+but rather a community built around that mission or activity.
 
 We can also view the formation of communities in this way with the
 interpretation of love in terms of interests.  If a whole bunch of
@@ -815,7 +818,8 @@ Here are some things that should be done:
   
 * This theory should be developed by applying it to literature,
   biography, and history, where much more complex situations than my
-  little examples arise.
+  little examples arise.  Also a good source of these examples of Adam
+  Smith's _The Theory of Moral Sentiments_.
 
 * It seems to me that saying $$A\heart B$$ is very similar to saying
   that $$B$$ is an interest of $$A$$.  Thus $$I(A)$$ is the set of all
@@ -826,3 +830,10 @@ Here are some things that should be done:
   
 * An analysis of dominance, submission, oppression, and liberation is
   sorely lacking.  This needs to be added.
+
+* Fill in the empty links
+
+* Write
+  [this feature](https://github.com/eduardoboucas/staticman/issues/98)
+  for [staticman](https://staticman.net/) so I will feel comfortable
+  using it for commments!
