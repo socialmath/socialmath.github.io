@@ -330,7 +330,7 @@ Now the law of symmetry, with the caveats, says broadly that if
 $$A$$'s interests include $$B$$'s, there will be a tendency for
 $$B$$'s interests to start to include $$A$$'s.  Thus the law of
 symmetry is revealed as a general tendency for the interests of people
-in commmunities to converge.
+in communities to converge.
 
 This interpretation can also be modified to account for fuzziness.
 $$I(A)$$ might include all, most, some, very little, etc. of $$I(B)$$
@@ -836,4 +836,4 @@ Here are some things that should be done:
 * Write
   [this feature](https://github.com/eduardoboucas/staticman/issues/98)
   for [staticman](https://staticman.net/) so I will feel comfortable
-  using it for commments!
+  using it for comments!
