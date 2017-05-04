@@ -126,3 +126,84 @@ $ gem install
 to generate a Rubyfile.lock file.
 
 Then instead of `jekyll serve`, you have to type `bundle exec jekyll serve`.
+
+### Haskell Diagrams
+
+The diagrams this site are svg files that are generated
+with [Haskell diagrams](http://projects.haskell.org/diagrams/).  Here
+is an example:
+
+{% include svg/diagrams/community1.svg %}
+
+All of the svg files, and the lhs files that generate them, are in
+`_includes/svg/diagrams/`.  To compile them yourself, first install
+the [Haskell platform](https://www.haskell.org/platform/).  Then
+update `cabal`, the Haskell package manager, and use it to make a
+sandbox in your working directory:
+
+```sh
+$ cabal update
+$ cabal sandbox init
+```
+
+Now install diagrams:
+
+```sh
+$ cabal install diagrams -j1
+```
+
+The `-j1` flag is only necessary for Windows.  It prevents `cabal`
+from editing the `package.cache` file multiple times at one, which is
+a problem for Windows but not for *nix.
+See
+[here](https://github.com/haskell/cabal/issues/4005#issuecomment-275434975) and
+[here](https://github.com/commercialhaskell/stack/issues/2617) for
+more information.
+
+Then you can compile a haskell file `diagram.lhs` with
+
+```sh
+$ cabal exec -- ghc --make diagram.lhs
+```
+
+or, in PowerShell,
+
+```sh
+> cabal exec (ghc --make diagram.lhs)
+```
+
+This runs `ghc --make diagram.lhs` in the sandbox environment, which
+generates an executable `diagram.exe`.  We now run this executable to
+generate an svg file `diagram.svg`.
+
+Bash:
+```sh
+$ ./diagram
+```
+Cmd.exe
+```sh
+> diagram.exe
+```
+PowerShell
+```sh
+> .\diagram.exe
+```
+
+If you are using bash, then you can run the shell script
+`./compileDiagrams.sh`.  This compiles some or all of the haskell
+files in `_includes/svg/diagrams/`, executes the resulting
+executables, and also does some postprocessing (replaces `&amp;` with
+`&` to reverse the xml-encoding of the svg builder).
+
+To use this script on all diagrams:
+
+```sh
+$ ./compileDiagrams
+```
+
+To use it just on diagrams `thisOne.lhs`, `thisOneToo.lhs`, and
+`alsoThis.lhs`:
+
+```sh
+$ ./compileDiagrams thisOne.lhs thisOneToo.lhs alsoThis.lhs
+```
