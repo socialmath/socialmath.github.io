@@ -29,34 +29,16 @@ svg files with `{% include ... $}` in jekyll.
 Here is our diagram.  It has one arrow `(1,0)` from $$B$$ to $$A$$.
 
 > diagram :: Diagram B
-> diagram = horizTextGraph 3 
->   [ArrowInfo { nodes = (0,1)
+> diagram = horizTextGraph 2
+>     [ArrowInfo { nodes = (1,0)
 >              , aOffset = Just interOffset0
 >              , dash = Nothing
 >              , label = Nothing
->              , colour = black
->              },
->    ArrowInfo { nodes = (2,1)
->              , aOffset = Just (-interOffset0)
->              , dash = Nothing
->              , label = Nothing
->              , colour = black
->              },
->    ArrowInfo { nodes = (1,2)
->              , aOffset = Just (-interOffset0)
->              , dash = Just [3,3]
->              , label = Nothing
->              , colour = black
->              },
->    ArrowInfo { nodes = (0,2)
->              , aOffset = Just (-2*interOffset0)
->              , dash = Nothing
->              , label = Nothing
->              , colour = black
->              }] ["A", "B", "C"]
+>              , colour = red
+>              }] ["A", "B"]
 >     # center # frame (0.5*edgeLength)
 
 And the output:
 
 > main :: IO ()
-> main = renderWithoutDOCTYPE "empathy4.svg" diagram
+> main = renderWithoutDOCTYPE "selfLoveHate2.svg" diagram

@@ -29,7 +29,31 @@ svg files with `{% include ... $}` in jekyll.
 Here is our diagram.  It has one arrow `(1,0)` from $$B$$ to $$A$$.
 
 > diagram :: Diagram B
-> diagram = textGraph 2 [(0,0),(1,0), (0,1)] ["A", "A"]
+> diagram = horizTextGraph 2
+>     [ArrowInfo { nodes = (1,0)
+>                , aOffset = Just interOffset0
+>                , dash = Nothing
+>                , label = Nothing
+>                , colour = red
+>                },
+>      ArrowInfo { nodes = (0,1)
+>                , aOffset = Just interOffset0
+>                , dash = Nothing
+>                , label = Nothing
+>                , colour = red
+>                },
+>      ArrowInfo { nodes = (0,0)
+>                , aOffset = Just interOffset0
+>                , dash = Nothing
+>                , label = Nothing
+>                , colour = black
+>                },
+>      ArrowInfo { nodes = (1,1)
+>                , aOffset = Just interOffset0
+>                , dash = Nothing
+>                , label = Nothing
+>                , colour = black
+>                }] ["A", "A"]
 >     # center # frame (0.5*edgeLength)
 
 And the output:

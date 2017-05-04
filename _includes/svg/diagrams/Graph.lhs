@@ -145,6 +145,7 @@ We need a datatype that stores the information about an arrow:
 >                            , aOffset :: Maybe Double
 >                            , dash :: Maybe [Double]
 >                            , label :: Maybe String
+>                            , colour :: Colour Double
 >                            }
 
 >-- instance Default ArrowInfo where
@@ -235,12 +236,14 @@ make this not just a constant.
 >                                                 , aOffset = Nothing
 >                                                 , dash = Nothing
 >                                                 , label = Nothing
+>                                                 , colour = black
 >                                                 })
 >
 > connectNodes' n arrowInfo@(ArrowInfo { nodes = (j,k)
 >                                      , aOffset = myOffset
 >                                      , dash = myDash
 >                                      , label = myText
+>                                      , colour = myColour
 >                                      }) d
 >     | j/=k = connectOffset' (interStyle arrowInfo') j k (interOffset' @@ turn) (-interOffset' @@ turn) d
 >     | otherwise = connectPerim' (idStyle arrowInfo') j k (idAngle ^+^ (idOffset' @@ turn)) (idAngle ^-^ (idOffset' @@ turn)) d
@@ -250,6 +253,7 @@ make this not just a constant.
 >                                      , aOffset = Just $ if (j==k) then idOffset' else interOffset'
 >                                      , dash = myDash
 >                                      , label = myText
+>                                      , colour = myColour
 >                                      }
 >               idAngle =
 >                   let getLoc = (maybe (p2 (0,0)) location).((`lookupName` d).(`mod` n))
@@ -300,22 +304,26 @@ Now the `angleStyles` themselves:
 >                      , aOffset = Just theOffset
 >                      , dash = myDash
 >                      , label = myText
+>                      , colour = myColour
 >                      } =
 >   (with & arrowHead .~ myTri
 >         & headLength .~ output arrowLength
 >         & arrowShaft .~ interShaft theOffset
->         & shaftStyle %~ (lwO shaftWidth).(maybeDashing myDash))
+>         & shaftStyle %~ (lwO shaftWidth).(lc myColour).(maybeDashing myDash)
+>         & headTexture .~ solid myColour)
 > 
 > idStyle ArrowInfo { nodes = (j,k)
 >                      , aOffset = Just theOffset
 >                      , dash = myDash
 >                      , label = myText
+>                      , colour = myColour
 >                      } =
 >   (with & arrowHead .~ myTri
 >         & arrowTail .~ lineTail
 >         & lengths .~ output arrowLength
 >         & arrowShaft .~ idShaft theOffset
->         & shaftStyle %~ (lwO shaftWidth).(maybeDashing myDash))
+>         & shaftStyle %~ (lwO shaftWidth).(lc myColour).(maybeDashing myDash)
+>         & headTexture .~ solid myColour)
 >
 > maybeDashing Nothing = id
 > maybeDashing (Just dash) = dashingO dash 0

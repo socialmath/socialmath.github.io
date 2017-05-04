@@ -35,6 +35,7 @@ Here is our diagram.
 >                                       , aOffset = Just (k*interOffset0)
 >                                       , dash = Nothing
 >                                       , label = Nothing
+>                                       , colour = black
 >                                       })
 >                      [(-3.5),(-2.5)..3.5]) ["A", "B", "C"]
 >   # center # frame (0.5*edgeLength)

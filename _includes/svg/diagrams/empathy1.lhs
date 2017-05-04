@@ -34,11 +34,13 @@ Here is our diagram.  It has one arrow `(1,0)` from $$B$$ to $$A$$.
 >              , aOffset = Just interOffset0
 >              , dash = Nothing
 >              , label = Nothing
+>              , colour = black
 >              },
 >    ArrowInfo { nodes = (2,1)
 >              , aOffset = Just (-interOffset0)
 >              , dash = Nothing
 >              , label = Nothing
+>              , colour = black
 >              }] ["A", "B", "C"]
 >     # center # frame (0.5*edgeLength)
 

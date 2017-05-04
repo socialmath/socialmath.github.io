@@ -692,18 +692,19 @@ genesis of self-love.  Suppose we start again with an isolated $$A$$.
 
 {% include svg/diagrams/selfLove1.svg %}
 
-Then $$B$$ comes along and hates $$A$$.
+Then $$B$$ comes along and hates $$A$$.  I will denote hate with a red
+arrow.
 
-{% include svg/diagrams/selfLove2.svg %}
+{% include svg/diagrams/selfLoveHate2.svg %}
 
 By the symmetry of hate, $$A$$ hates $$B$$ in return.
 
-{% include svg/diagrams/selfLove3.svg %}
+{% include svg/diagrams/selfLoveHate3.svg %}
 
 Since $$A\butt B$$ and $$B\butt A$$, the transitivity of hate tells us
 that $$A\heart A$$.
 
-{% include svg/diagrams/selfLove4.svg %}
+{% include svg/diagrams/selfLoveHate4.svg %}
 
 What has happened is that $$A$$ has united with themself against a
 common enemy, $$B$$.  This makes a lot of sense in the case where
