@@ -1,0 +1,26 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" height="360.0000" stroke-opacity="1" viewBox="0 0 360 360" font-size="1" width="360.0000" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(0,0,0)" version="1.1">
+  <defs>
+  </defs>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.44" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="text-before-edge" transform="matrix(1.0000,0.0000,0.0000,1.0000,180.0000,50.0000)" stroke="none" text-anchor="middle">I(A)
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.44" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 310.0000,180.0000 c 0.0000,-71.7970 -58.2030,-130.0000 -130.0000 -130.0000c -71.7970,-0.0000 -130.0000,58.2030 -130.0000 130.0000c -0.0000,71.7970 58.2030,130.0000 130.0000 130.0000c 71.7970,0.0000 130.0000,-58.2030 130.0000 -130.0000Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.44" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="text-before-edge" transform="matrix(1.0000,0.0000,0.0000,1.0000,180.0000,140.0000)" stroke="none" text-anchor="middle">I(B)
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.44" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 260.0000,220.0000 c 0.0000,-44.1828 -35.8172,-80.0000 -80.0000 -80.0000c -44.1828,-0.0000 -80.0000,35.8172 -80.0000 80.0000c -0.0000,44.1828 35.8172,80.0000 80.0000 80.0000c 44.1828,0.0000 80.0000,-35.8172 80.0000 -80.0000Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.44" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="text-before-edge" transform="matrix(1.0000,0.0000,0.0000,1.0000,180.0000,230.0000)" stroke="none" text-anchor="middle">I(C)
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.44" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 210.0000,260.0000 c 0.0000,-16.5685 -13.4315,-30.0000 -30.0000 -30.0000c -16.5685,-0.0000 -30.0000,13.4315 -30.0000 30.0000c -0.0000,16.5685 13.4315,30.0000 30.0000 30.0000c 16.5685,0.0000 30.0000,-13.4315 30.0000 -30.0000Z"/>
+  </g>
+</svg>

@@ -11,6 +11,12 @@ First some haskell extensions: I don't know what these do atm, but the
 > {-# LANGUAGE FlexibleContexts #-}
 > {-# LANGUAGE TypeFamilies #-}
 
+An error message said I should use this, and
+https://hackage.haskell.org/package/diagrams-lib-1.4.0.1/docs/src/Diagrams.TwoD.Arrow.html
+does, so why not?
+
+> {-# LANGUAGE TemplateHaskell #-}
+
 Now the module declaration.  At the moment it has two methods, `node`
 and `completeGraph`.
 
@@ -43,6 +49,12 @@ Two extra modules that are used here:
 
 > import Diagrams.TwoD.Vector
 > import Data.Maybe (fromMaybe)
+
+For the workaround detailed here:
+http://projects.haskell.org/diagrams/doc/manual.html#faking-optional-named-arguments
+
+> import Control.Lens (makeLensesWith)
+> import Data.Default.Class
 
 Now the methods:
 
@@ -134,7 +146,17 @@ We need a datatype that stores the information about an arrow:
 >                            , dash :: Maybe [Double]
 >                            , label :: Maybe String
 >                            }
+
+>-- instance Default ArrowInfo where
+>--   def = ArrowInfo
+>--         { nodes = (0,0)
+>--         , aOffset = Nothing
+>--         , dash = Nothing
+>--         , label = ""
+>--         }
 >
+>-- makeLensesWith (lensRules & generateSignatures .~ False) ''ArrowInfo
+
 > horizTextGraph n arrowInfos strings = atPoints [p2 (fromIntegral $ k*edgeLength,0) | k <- [0..(n-1)]]
 >     (zipWith textNode [0..(n-1)] strings)
 >     # applyAll (map (connectNodes' n) arrowInfos)
@@ -282,7 +304,7 @@ Now the `angleStyles` themselves:
 >   (with & arrowHead .~ myTri
 >         & headLength .~ output arrowLength
 >         & arrowShaft .~ interShaft theOffset
->         & shaftStyle %~ (maybeDashing myDash))
+>         & shaftStyle %~ (lwO shaftWidth).(maybeDashing myDash))
 > 
 > idStyle ArrowInfo { nodes = (j,k)
 >                      , aOffset = Just theOffset
@@ -293,7 +315,7 @@ Now the `angleStyles` themselves:
 >         & arrowTail .~ lineTail
 >         & lengths .~ output arrowLength
 >         & arrowShaft .~ idShaft theOffset
->         & shaftStyle %~ (maybeDashing myDash))
+>         & shaftStyle %~ (lwO shaftWidth).(maybeDashing myDash))
 >
 > maybeDashing Nothing = id
 > maybeDashing (Just dash) = dashingO dash 0

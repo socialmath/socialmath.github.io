@@ -1,0 +1,39 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" height="177.5000" stroke-opacity="1" viewBox="0 0 900 178" font-size="1" width="900.0000" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(0,0,0)" version="1.1">
+  <defs>
+  </defs>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.5987495113369075" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="text-after-edge" transform="matrix(1.0000,0.0000,0.0000,1.0000,850.0000,50.0000)" stroke="none" text-anchor="end">True
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.5987495113369075" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="text-after-edge" transform="matrix(1.0000,0.0000,0.0000,1.0000,450.0000,50.0000)" stroke="none" text-anchor="middle">False
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.5987495113369075" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="text-after-edge" transform="matrix(1.0000,0.0000,0.0000,1.0000,50.0000,50.0000)" stroke="none" text-anchor="start">-True
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.5987495113369075" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="text-after-edge" transform="matrix(1.0000,0.0000,0.0000,1.0000,850.0000,70.0000)" stroke="none" text-anchor="end">Much love
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.5987495113369075" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="text-after-edge" transform="matrix(1.0000,0.0000,0.0000,1.0000,450.0000,70.0000)" stroke="none" text-anchor="middle">No intimacy
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.5987495113369075" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="text-after-edge" transform="matrix(1.0000,0.0000,0.0000,1.0000,50.0000,70.0000)" stroke="none" text-anchor="start">Much hate
+    </text>
+  </g>
+  <defs>
+    <linearGradient x2="400.0000" y1="0.0000" gradientUnits="userSpaceOnUse" spreadMethod="pad" gradientTransform="matrix(1.0000,-0.0000,0.0000,-1.0000,450.0000,102.5000)" id="gradient12" y2="0.0000" x1="-400.0000">
+      <stop stop-opacity="1.0000" offset="0.0000" stop-color="rgb(0,0,0)"/>
+      <stop stop-opacity="1.0000" offset="0.5000" stop-color="rgb(255,255,255)"/>
+      <stop stop-opacity="1.0000" offset="1.0000" stop-color="rgb(0,0,0)"/>
+    </linearGradient>
+  </defs>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1" font-size="20.0px" stroke="rgb(0,0,0)" stroke-width="1.0" fill="url(#gradient12)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 850.0000,127.5000 l -0.0000,-50.0000 h -800.0000 l -0.0000,50.0000 Z"/>
+  </g>
+</svg>
