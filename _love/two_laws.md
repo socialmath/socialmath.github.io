@@ -1,6 +1,5 @@
 ---
 title: The Two Laws of Love
-published: false
 ---
 
 ### The Two Laws of Love
