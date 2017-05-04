@@ -6,6 +6,11 @@
   {% include head.html %}
   
   <body>
+    <div>
+      <a href="/">Back to home</a>
+      <hr>
+    </div>
+    
     <div class="wrapper">
       {% if page.version %}
         {% capture version_name %}/_versions/{{page.title | downcase}}-{{ page.version }}.md{% endcapture %}
@@ -33,7 +38,8 @@
       <a href="{{site.github.repository_url}}/blob/master/{{page.path}}">View this page on github to suggest
 edits.</a>
     </div>
-  </body>
+
+</body>
   <script>
     var scripts = document.getElementsByTagName("script");
     for (var i = 0; i < scripts.length; i++) {
