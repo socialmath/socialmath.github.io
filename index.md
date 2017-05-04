@@ -18,6 +18,7 @@ appearance, it only existed in my mind, in a few pages of old
 notebooks, and in the minds of friends that I explained it to.
 
 1. [The four types/aspects of love](/love/four_types/)
+2. [The two laws of love, their four caveats, and more](/love/two_laws/)
 
 ### What I did to set up this site
 
