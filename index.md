@@ -24,8 +24,8 @@ notebooks, and in the minds of friends that I explained it to.
 
 Jimmy Mathews wants to develop a general purpose systems modeling
 and programming language that would be applicable to the comprehension
-of social systems. The powerful language of Memory Evolutive Systems
-developed in by Ehresmann and Vanbremeersch in their 2007 book
+of social systems. The powerful language of Memory Evolutive Systems, 
+developed by Ehresmann and Vanbremeersch in [their 2007 book](https://books.google.com/books/about/Memory_Evolutive_Systems_Hierarchy_Emerg.html?id=OqcYQbY79GMC),
 seems like a good place to start.
 
 1. [Review summary of *Memory Evolutive Systems* Part A, pages 21-142](mes/ReviewSummary_EhresmannVanbremeersch_MES_PartA.html)
@@ -33,7 +33,7 @@ seems like a good place to start.
 3. Discussion of computational implementation of MES (in progress)
 
 Further reviews may summarize the Object Process Methodology (OPM)
-of Dori and Crawley, the Universal Modeling Language (UML) or SysML,
+of Dori and Crawley, the Universal Modeling Language (UML), SysML,
 or some of the key references of Ehresmann and Vanbremeersch like
 the work of Nils Baas or of Robert Rosen in complex systems.
 
